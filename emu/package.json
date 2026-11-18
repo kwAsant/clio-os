@@ -1,5 +1,5 @@
 {
-  "name": "ekiy-emu",
+  "name": "clio-emu",
   "private": true,
   "type": "module",
   "scripts": {
@@ -14,7 +14,7 @@
     "@types/node": "^22.10.0",
     "typescript": "^5.7.0"
   },
-  "description": "Application-level Melis emulator for the EKIY F133-B display",
+  "description": "Clio OS Melis RTOS application-level emulator",
   "license": "MIT",
   "engines": {
     "node": ">=22.6.0"
