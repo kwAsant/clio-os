@@ -45,7 +45,7 @@ function frame(): Buffer {
   return png;
 }
 
-const page = `<!doctype html><meta charset="utf-8"><title>EKIY emulator</title>
+const page = `<!doctype html><meta charset="utf-8"><title>Clio OS — Firmware Emulator</title>
 <style>body{background:#111;color:#ccc;font:13px system-ui;margin:20px}canvas{border:1px solid #444;cursor:crosshair;image-rendering:pixelated}</style>
 <canvas id=c width=${SCREEN_W} height=${SCREEN_H}></canvas><div id=s></div>
 <script>
@@ -92,6 +92,6 @@ createServer((req, res) => {
     return;
   }
   res.statusCode = 404; res.end();
-}).listen(port, '127.0.0.1', () => console.log(`EKIY emulator: http://localhost:${port}  (log: ${logFile})`));
+}).listen(port, '127.0.0.1', () => console.log(`Clio OS — Firmware Emulator: http://localhost:${port}  (log: ${logFile})`));
 
 pump();
